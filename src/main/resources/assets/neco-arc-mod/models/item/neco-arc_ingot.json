@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "neco-arc-mod:item/neco-arc_ingot"
+  }
+}

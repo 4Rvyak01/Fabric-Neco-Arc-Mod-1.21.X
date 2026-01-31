@@ -2,6 +2,7 @@ package net.fourrvyak.necoarcmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fourrvyak.necoarcmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,6 +14,6 @@ public class NecoArcMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }
