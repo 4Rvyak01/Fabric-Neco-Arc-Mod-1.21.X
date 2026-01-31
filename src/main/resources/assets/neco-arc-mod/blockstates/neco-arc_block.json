@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "neco-arc-mod:block/neco-arc_block"
+    }
+  }
+}
