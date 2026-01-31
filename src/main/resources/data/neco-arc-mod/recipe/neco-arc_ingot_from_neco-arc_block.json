@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "neco-arc-mod:neco-arc_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "neco-arc-mod:neco-arc_ingot"
+  }
+}

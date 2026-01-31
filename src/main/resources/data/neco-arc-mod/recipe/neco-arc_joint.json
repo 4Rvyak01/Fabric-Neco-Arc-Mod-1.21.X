@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "neco-arc-mod:raw_neco-arc"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "neco-arc-mod:neco-arc_joint"
+  }
+}

@@ -1,7 +1,10 @@
 {
   "item.neco-arc-mod.raw_neco-arc": "Raw Neco-Arc",
   "item.neco-arc-mod.neco-arc_ingot": "Neco-Arc Ingot",
+  "item.neco-arc-mod.neco-arc_joint": "Neco-Arc Joint",
 
   "block.neco-arc-mod.neco-arc_block": "Neco-Arc Block",
-  "block.neco-arc-mod.neco-arc_ore": "Neco-Arc Ore"
+  "block.neco-arc-mod.neco-arc_ore": "Neco-Arc Ore",
+
+  "itemgroup.neco-arc-mod.neco-arc_mod": "Neco-Arc Mod"
 }
