@@ -33,12 +33,8 @@ public class ModBlocks {
     public static void registerMopBlocks(){
         NecoArcMod.LOGGER.info("Registering Mod Blocks for " + NecoArcMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.NECO_ARC_BLOCK);
-        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> entries.add(ModBlocks.NECO_ARC_BLOCK));
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
-            entries.add(ModBlocks.NECO_ARC_ORE);
-        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> entries.add(ModBlocks.NECO_ARC_ORE));
     }
 }
