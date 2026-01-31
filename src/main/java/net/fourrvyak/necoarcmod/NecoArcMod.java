@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fourrvyak.necoarcmod.block.ModBlocks;
 import net.fourrvyak.necoarcmod.item.ModItems;
+import net.fourrvyak.necoarcmod.item.ModItemsGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,5 +18,6 @@ public class NecoArcMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerMopBlocks();
+		ModItemsGroups.registerItemGroups();
 	}
 }

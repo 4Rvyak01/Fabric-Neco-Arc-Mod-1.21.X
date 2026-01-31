@@ -1,9 +1,7 @@
 package net.fourrvyak.necoarcmod.item;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fourrvyak.necoarcmod.NecoArcMod;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -18,10 +16,5 @@ public class ModItems {
 
     public static void registerModItems(){
         NecoArcMod.LOGGER.info("Registering Mod Items for " + NecoArcMod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(RAW_NECO_ARC);
-            entries.add(NECO_ARC_INGOT);
-        });
     }
 }
